@@ -10,17 +10,20 @@ nav {
 
 .jumbotron {
     background-color: rgba(0, 0, 0, 1);
-    background-image: url('../img/drink-864958_1920.jpg');
+    background-image: url('../img/computer.jpg');
     background-size: cover;
     background-position: 0px 600px;
 }
 
-#MesProjet{
+#mesProjet{
     background-color: #EEEFF7;
+    margin-top: 24px;
+    padding-bottom: 24px;
 }
 
 .show-projet {
     cursor: pointer;
+    margin: 5px 0;
 }
 
 .show-projet a {
@@ -34,7 +37,7 @@ nav {
 
 .card-img-top {
     height: 265px;
-    width: 340px;
+    /* width: 340px; */
     transition: 0.5s;
 }
 
@@ -49,8 +52,39 @@ nav {
 #html, #css, #js, #php {
     width: 250px;
     height: 250px;
+    margin: 15px 0;
 }
 
 .collapse {
     width: 100%;
+}
+
+#tools {
+    background-color: #EEEFF7;
+}
+
+#contact {
+    background-color: #0275d8;
+    padding-bottom: 25px;
+}
+
+#contact h2 {
+    color: white;
+    padding: 24px 0;
+}
+
+#contact label {
+    color: white;
+}
+
+footer {
+    text-align: center;
+    margin-top: 15px; 
+    padding: 5px;
+    background-color: #0275d8;
+    color: white; 
+}
+
+footer p {
+    margin: 0
 }
